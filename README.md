@@ -11,14 +11,24 @@ Set up the virtual machine name and location.
 Allocate resources:
 Memory: At least 4GB for smooth performance.
 CPU: 2 processors recommended.
-Disk Size: Allocate at least 40GB.
+Disk Size: Allocate at least 60GB.
 Configure Networking
 
-Use a NAT or Bridged network for internet connectivity.
-Ensure the VM can communicate with the host for lab testing.
-Finish Setup
+Assign Two Network Adapters to the VM
 
-Complete the wizard and power on the VM to install Windows Server 2022.
+In VMware Workstation, open the settings of your virtual machine.
+Under Hardware, click Add > Network Adapter.
+Ensure the VM has two network adapters:
+Adapter 1: NAT (for internet access).
+Adapter 2: Host-only or Custom network (for the internal network).
+Customize the Network
+
+Go to Edit > Virtual Network Editor in VMware Workstation.
+Verify:
+NAT is set up on one network 
+Host-only is set up on another network (e.g., VMnet2) for the internal network.
+
+
 
 <h2>Step 2: Install Windows Server 2022</h2>
 
@@ -26,4 +36,6 @@ Complete Installation
 -Boot the VM and install Windows Server 2022.
 -Choose Desktop Experience for a graphical interface.
 -Set the Administrator password during installation.
+
+<h2>Step 3: Configure Windows Server 2022</h2>
 
