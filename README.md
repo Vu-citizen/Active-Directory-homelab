@@ -30,6 +30,9 @@ Customize the Network
 </b>
 <br />
 <br />
+<p align="center">
+<img src="https://github.com/user-attachments/assets/1631b4f7-6db0-4ae0-9ba7-5b9600968690" height="50%" width="50%" alt="Image Analysis Dataflow"/>
+
 3.Go to Edit > Virtual Network Editor in VMware Workstation.
 Verify:
 NAT is set up on one network 
