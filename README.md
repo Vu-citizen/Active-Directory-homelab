@@ -61,9 +61,20 @@ Complete Installation
 <br />
 <h2>Step 3: Configure Windows Server 2022</h2>
 1.Change Computer Name
+<br />
 <img src="https://github.com/user-attachments/assets/d134c317-4702-4750-a4f1-2a789383d8e6" height="50%" width="50%" alt="Image Analysis Dataflow"/>
-
+</b>
+<br />
+<br />
 Right-click start> system > rename this PC .
 Rename the computer to something meaningful like DC(domain controller.
 
+</b>
+<br />
+<br />
+2. Set a Static IP Address
+
+Open Network and Sharing Center.
+Go to Change adapter settings > Right-click your network adapter > Properties.
+Set a static IP (e.g., 192.168.1.10), Subnet Mask, Default Gateway, and DNS Server (use the same IP as the static IP).
 
