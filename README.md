@@ -14,7 +14,7 @@ CPU: 2 processors recommended.
 Disk Size: Allocate at least 60GB.
 Configure Networking
 
-Assign Two Network Adapters to the VM
+2.Assign Two Network Adapters to the VM
 
 In VMware Workstation, open the settings of your virtual machine.
 Under Hardware, click Add > Network Adapter.
@@ -23,7 +23,7 @@ Adapter 1: NAT (for internet access).
 Adapter 2: Host-only or Custom network (for the internal network).
 Customize the Network
 
-Go to Edit > Virtual Network Editor in VMware Workstation.
+3.Go to Edit > Virtual Network Editor in VMware Workstation.
 Verify:
 NAT is set up on one network 
 Host-only is set up on another network (e.g., VMnet2) for the internal network.
