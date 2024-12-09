@@ -17,8 +17,10 @@ Configure Networking
 <br />
 <br />
 2.Assign Two Network Adapters to the VM
-![image](https://github.com/user-attachments/assets/3daf401f-a98d-4b6a-a8cf-67349405e6ac)
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3daf401f-a98d-4b6a-a8cf-67349405e6ac" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+</p>
 In VMware Workstation, open the settings of your virtual machine.
 Under Hardware, click Add > Network Adapter.
 Ensure the VM has two network adapters:
