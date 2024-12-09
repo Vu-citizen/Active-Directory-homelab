@@ -31,7 +31,8 @@ Customize the Network
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/user-attachments/assets/1631b4f7-6db0-4ae0-9ba7-5b9600968690" height="50%" width="50%" alt="Image Analysis Dataflow"/>
+<img src="https://github.com/user-attachments/assets/89e7b338-4495-4abc-b4fd-e271bf020cae" height="50%" width="50%" alt="Image Analysis Dataflow"/>
+
 
 3.Go to Edit > Virtual Network Editor in VMware Workstation.
 Verify:
