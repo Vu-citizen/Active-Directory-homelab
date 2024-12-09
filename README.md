@@ -49,6 +49,8 @@ Host-only is set up on another network (e.g., VMnet2) for the internal network.
 <br />
 Complete Installation
 -Boot the VM and install Windows Server 2022.
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6364bc7c-70b5-492c-acb1-4f93b8c091d6" height="50%" width="50%" alt="Image Analysis Dataflow"/>
 -Choose Desktop Experience for a graphical interface.
 -Set the Administrator password during installation.
 </b>
