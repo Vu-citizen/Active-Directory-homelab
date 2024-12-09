@@ -52,14 +52,18 @@ Complete Installation
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6364bc7c-70b5-492c-acb1-4f93b8c091d6" height="50%" width="50%" alt="Image Analysis Dataflow"/>
 -Choose Desktop Experience for a graphical interface.
+ <p align="center">
+<img src="https://github.com/user-attachments/assets/69305a33-2384-444c-a35a-041142edf01c" height="50%" width="50%" alt="Image Analysis Dataflow"/>
+
 -Set the Administrator password during installation.
 </b>
 <br />
 <br />
 <h2>Step 3: Configure Windows Server 2022</h2>
 1.Change Computer Name
+<img src="https://github.com/user-attachments/assets/d134c317-4702-4750-a4f1-2a789383d8e6" height="50%" width="50%" alt="Image Analysis Dataflow"/>
 
-Right-click This PC > Properties > Advanced System Settings > Computer Name.
-Rename the computer to something meaningful (e.g., ADSERVER).
+Right-click start> system > rename this PC .
+Rename the computer to something meaningful like DC(domain controller.
 
 
