@@ -73,9 +73,12 @@ Rename the computer to something meaningful like DC(domain controller.
 </b>
 <br />
 <br />
-2. Set a Static IP Address
+2. Set a Static IP Address in the internal network
+<br />
+ <p align="center">
+<img src="https://github.com/user-attachments/assets/1e20788f-21f8-4b20-b3dd-5ee721a06880" height="50%" width="50%" alt="Image Analysis Dataflow"/>
 
-Open Network and Sharing Center.
+  Open Network and Sharing Center.
 Go to Change adapter settings > Right-click your network adapter > Properties.
-Set a static IP (e.g., 192.168.1.10), Subnet Mask, Default Gateway, and DNS Server (use the same IP as the static IP).
+Set a static IP (e.g., 172.16.0.1), Subnet Mask  255.255.255.0, Default Gateway, and DNS Server (use the same IP as the static IP(172.16.0.1) or using a loopback(127.0.0.1).
 
