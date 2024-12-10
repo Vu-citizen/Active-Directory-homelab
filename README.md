@@ -82,3 +82,34 @@ Rename the computer to something meaningful like DC(domain controller.
 Go to Change adapter settings > Right-click your network adapter > Properties.
 Set a static IP (e.g., 172.16.0.1), Subnet Mask  255.255.255.0, Default Gateway, and DNS Server (use the same IP as the static IP(172.16.0.1) or using a loopback(127.0.0.1).
 
+3.Install Roles and Features
+
+Open Server Manager > Manage > Add Roles and Features.
+Choose:
+
+<img src="https://github.com/user-attachments/assets/c1f70be7-4b41-4cbd-a289-d3f0c339e096" height="50%" width="50%" alt="Image Analysis Dataflow"/>
+
+
+Role-based or feature-based installation.
+<img src="https://github.com/user-attachments/assets/9b342824-256a-4958-b6ad-5b5855bb187a" height="50%" width="50%" alt="Image Analysis Dataflow"/>
+Active Directory Domain Services (AD DS) role.
+Allow it to automatically install required features like DNS and Group Policy.
+Promote to Domain Controller
+![image](https://github.com/user-attachments/assets/11d8dc22-d53f-4a8f-8907-ef318fe685c3)
+
+After installing AD DS, a notification in Server Manager will prompt you to promote the server to a domain controller.
+Click Promote this server to a domain controller.
+![image](https://github.com/user-attachments/assets/f0701f23-58e8-45a2-9092-2f7df29310cf)
+
+Create a new forest (e.g., example.local).
+Specify a Directory Services Restore Mode (DSRM) password.
+Finish the wizard and reboot.
+
+<h2>Step 3: Add Users and Computers and Install and Configure RAS (Remote Access Service) </h2>
+1.Add Users and Computers
+![image](https://github.com/user-attachments/assets/f7b8effd-c2e3-4f49-aac0-881b49cb7fb8)
+
+In Active Directory Users and Computers, create organizational units (OUs), users, and computer accounts for practice.
+
+2.
+
