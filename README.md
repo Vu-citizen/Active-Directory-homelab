@@ -107,6 +107,7 @@ Finish the wizard and reboot.
 
 <h2>Step 3: Add Users and Computers and Install and Configure RAS (Remote Access Service) </h2>
 1.Add Users and Computers
+
 ![image](https://github.com/user-attachments/assets/f7b8effd-c2e3-4f49-aac0-881b49cb7fb8)
 
 In Active Directory Users and Computers, create organizational units (OUs), users, and computer accounts for practice.
