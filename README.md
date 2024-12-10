@@ -105,12 +105,74 @@ Create a new forest (e.g., example.local).
 Specify a Directory Services Restore Mode (DSRM) password.
 Finish the wizard and reboot.
 
-<h2>Step 3: Add Users and Computers and Install and Configure RAS (Remote Access Service) </h2>
+<h2>Step 3: Add Users and Computers , Install and Configure RAS (Remote Access Service)and enable NAT and Routing </h2>
 1.Add Users and Computers
 
 ![image](https://github.com/user-attachments/assets/f7b8effd-c2e3-4f49-aac0-881b49cb7fb8)
 
 In Active Directory Users and Computers, create organizational units (OUs), users, and computer accounts for practice.
 
-2.
+2. Install and Configure RAS (Remote Access Service)
+-Open Server Manager > Manage > Add Roles and Features.
+-Choose:
+--Role-based or feature-based installation.
+-Remote Access role.
+![image](https://github.com/user-attachments/assets/d4d7e8f6-04d3-488b-a757-9aa2ded8070b)
 
+On the next screen, select Routing and continue with the installation by clicking Next until installation is complete.
+
+4. Enable NAT and Routing
+ ![image](https://github.com/user-attachments/assets/7ce97201-8edf-4553-ac1a-7677d80cad62)
+After installation, go to Tools > Routing and Remote Access in Server Manager.
+![image](https://github.com/user-attachments/assets/eba179cc-ee1f-445e-afcc-a3099176af01)
+
+Right-click your server name and select Configure and Enable Routing and Remote Access.
+In the wizard:
+Choose Network Address Translation (NAT).
+![image](https://github.com/user-attachments/assets/6067c708-2f1d-487d-9e1b-bb1aac576513)
+
+Select the network interface connected to the internet Network (Adapter 2).
+Configure the NAT settings to allow clients on the private network to share the internet connection.
+
+
+<h2>Step 4: Set Up DHCP Server </h2>
+1. Install the DHCP Role
+Go to Server Manager > Add Roles and Features.
+
+![image](https://github.com/user-attachments/assets/84fa96ea-36be-45a5-b11b-3b1b1143be04)
+
+Select the DHCP Server role and complete the installation by clicking Next until done.
+2. Configure DHCP
+![image](https://github.com/user-attachments/assets/3c738545-b5f5-4c05-b953-cc589596db56)
+
+Open Tools > DHCP.
+![image](https://github.com/user-attachments/assets/47f32c04-77ca-4844-b7ce-d81a88793e2f)
+
+Right-click your server name and select New Scope.
+![image](https://github.com/user-attachments/assets/afab5c8f-5882-4c25-83bc-9b75026b3e7c)
+
+Configure the scope:
+Start IP: 172.16.0.100.
+End IP: 172.16.0.200.
+Subnet Mask: 255.255.255.0.  
+![image](https://github.com/user-attachments/assets/c49cc3bf-a00a-44c8-b940-11c08268416d)
+
+Default Gateway: 172.16.0.1 (IP of the internal network adapter on the domain controller).
+![image](https://github.com/user-attachments/assets/5a5e3ed7-9c88-4708-9952-c4308292d4be)
+
+DNS Server: 172.16.0.1 (or the domain controller’s IP my case 192.168.26.138).
+![image](https://github.com/user-attachments/assets/0e0808ea-aee7-49fe-b33f-a8191b48c81a)
+
+next , set up router in server option-
+![image](https://github.com/user-attachments/assets/c98447b6-87ef-43bf-8c54-c42354a7efbd)
+
+Activate the scope after configuration by authorized and refresh .
+
+<h2>Step 5: Create a user and connect Client Machines</h2>
+![image](https://github.com/user-attachments/assets/e8fe84f6-a6c2-42fa-a04b-7245b7042244)
+
+Set Up Clients
+
+
+
+Verify internet connectivity and domain login functionality from the client machine.
