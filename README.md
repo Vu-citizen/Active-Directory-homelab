@@ -105,7 +105,7 @@ Create a new forest (e.g., example.local).
 Specify a Directory Services Restore Mode (DSRM) password.
 Finish the wizard and reboot.
 
-<h2>Step 3: Add Users and Computers , Install and Configure RAS (Remote Access Service)and enable NAT and Routing </h2>
+<h2>Step 3: Add Admin account , Install and Configure RAS (Remote Access Service)and enable NAT and Routing </h2>
 1.Add Users and Computers
 
 ![image](https://github.com/user-attachments/assets/f7b8effd-c2e3-4f49-aac0-881b49cb7fb8)
@@ -169,9 +169,14 @@ next , set up router in server option-
 Activate the scope after configuration by authorized and refresh .
 
 <h2>Step 5: Create a user and connect Client Machines</h2>
+
 ![image](https://github.com/user-attachments/assets/e8fe84f6-a6c2-42fa-a04b-7245b7042244)
 
-Set Up Clients
+Set Up Clients- This is similar to adding admin account but we will be make a new organisation unit called _USER where we will put the user in.
+![image](https://github.com/user-attachments/assets/0c4edc5d-25b1-40c7-b8bc-64e74663abee)
+
+![image](https://github.com/user-attachments/assets/1f06cdf7-e3e2-40eb-8f9f-9cd376ab2020)
+
 
 
 
