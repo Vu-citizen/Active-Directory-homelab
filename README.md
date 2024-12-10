@@ -172,12 +172,19 @@ Activate the scope after configuration by authorized and refresh .
 
 ![image](https://github.com/user-attachments/assets/e8fe84f6-a6c2-42fa-a04b-7245b7042244)
 
-Set Up Clients- This is similar to adding admin account but we will be make a new organisation unit called _USER where we will put the user in.
+1. Set Up Clients- This is similar to adding admin account but we will be make a new organisation unit called _USER where we will put the user in.
 ![image](https://github.com/user-attachments/assets/0c4edc5d-25b1-40c7-b8bc-64e74663abee)
 
 ![image](https://github.com/user-attachments/assets/1f06cdf7-e3e2-40eb-8f9f-9cd376ab2020)
+![image](https://github.com/user-attachments/assets/10bc7074-7224-418e-bb5d-7b4a5b213529)
+2.Create a new vm with window 10 iso and have network adapter connect to the internal network inthis case (vmnet2)
+![image](https://github.com/user-attachments/assets/2130b8da-4cf6-4137-b131-fe4d0d59df84)
 
+![image](https://github.com/user-attachments/assets/c7753c0b-f8db-4c82-8899-c58e3b2a47d8)
 
+3. after setup windows 10 compalte go to system from task bar right click  select rename this pc (advanced)
+![image](https://github.com/user-attachments/assets/9ccd708e-4764-49cb-be33-42d513f88f2f)
+- enter your admin and password you create before and connect to the network domain we create
+![image](https://github.com/user-attachments/assets/7c0dfdb8-b3e5-4d05-b5de-6926dab73db8)
 
-
-Verify internet connectivity and domain login functionality from the client machine.
+Verify internet connectivity and domain login functionality from the client machine by login with user congratulation you have create your own active domain.
