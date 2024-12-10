@@ -9,7 +9,7 @@ Click "Create a New Virtual Machine" and select "Typical" configuration.
 Browse and select the Windows Server 2022 ISO file.
 Set up the virtual machine name and location.
 Allocate resources:
-Memory: At least 4GB for smooth performance.
+Memory: At least 2GB for smooth performance.
 CPU: 2 processors recommended.
 Disk Size: Allocate at least 60GB.
 Configure Networking
