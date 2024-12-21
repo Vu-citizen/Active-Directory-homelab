@@ -2,6 +2,11 @@
 
 
  ### [YouTube Demonstration (@00:00)](https://youtu.be/wYRdlW8A7tQ)
+<h2>Software & Technologies used </h2>
+-[Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022).
+-[Vmware Workstation](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022).
+-
+
 <h2>Step 1 Create a New Virtual Machine </h2>
 
 1. Open VMware Workstation.
